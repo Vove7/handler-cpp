@@ -1,6 +1,5 @@
 # Handler for C++
 
-
 ```c++
 Handler h;
 h.postDelayed([]{
@@ -16,4 +15,15 @@ sleep(1);
 //cancel task3
 h.cancelTask(task3);
 
+```
+
+### Build
+
+```bash
+git clone https://github.com/Vove7/handler-cpp
+cd handler-cpp
+mkdir build && cd build
+cmake .. && make
+# run test
+./handler-cpp
 ```
